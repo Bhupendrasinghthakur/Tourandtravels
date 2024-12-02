@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   
+
+    
+    <!-- Website Title -->
+    <title>Contact</title>
+    
+    <!-- Styles -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+    
+    <style>
+        .vehicle-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            position: relative;
+            top: 20vh;
+        }
+
+        .vehicle-box {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .vehicle-box:hover {
+            transform: scale(1.05);
+        }
+
+        .vehicle-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1em;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .vehicle-box {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .vehicle-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top" style="background-color:#113448;">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+
+        <!-- Image Logo -->
+        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+        <h3 style="color: white;">Aarya Tours</h3>
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="dashboard.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="about.html">About Us</a>
+                </li>
+              
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="Contact.html">Contact Us</a>
+                </li>
+                
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#about.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="vehicle.html">Vehicle</a>
+                </li>
+            </ul>
+           
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+    <div class="vehicle-container">
+        <div class="vehicle-box">
+            <img src="images/innova-removebg-preview.png" alt="Vehicle 1" class="vehicle-image">
+            <h1>Toyota innova</h1>
+            <h3>Rs.16 Per KM</h3>
+        </div>
+        <div class="vehicle-box">
+            <img src="images/innova-removebg-preview.png" alt="Vehicle 2" class="vehicle-image">
+            <h1>Toyota innova crysta</h1>
+            <h3>Rs.18 Per KM</h3>
+        </div>
+        <div class="vehicle-box">
+            <img src="images/innova-removebg-preview.png" alt="Vehicle 3" class="vehicle-image">
+            <h1>Toyota Etios</h1>
+            <h3>Rs.12 Per KM</h3>
+        </div>
+        <div class="vehicle-box">
+            <img src="images/innova-removebg-preview.png" alt="Vehicle 4" class="vehicle-image">
+            <h1>Maruti Ertiga</h1>
+            <h3>Rs.14 Per KM</h3>
+        </div>
+        <div class="vehicle-box">
+            <img src="images/innova-removebg-preview.png" alt="Vehicle 5" class="vehicle-image">
+            <h1>Swift Desire</h1>
+            <h3>Rs.13 Per KM</h3>
+        </div>
+        <div class="vehicle-box">
+            <img src="images/traveller-removebg-preview.png" alt="Vehicle 6" class="vehicle-image">
+            <h1>17 Seater Traveller</h1>
+            <h3>Rs.26 Per KM</h3>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>Few Words About Aria</h4>
+                        <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="white" href="#your-link">startupguide.com</a>
+                            </li>
+                            <li>
+                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Tools</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="#your-link">businessgrowth.com</a>
+                            </li>
+                            <li>
+                               <a class="white" href="#your-link">influencers.com</a>
+                            </li>
+                            <li class="media">
+                                <a class="white" href="#your-link">optimizer.net</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Partners</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="#your-link">unicorns.com</a>
+                            </li>
+                            <li>
+                                <a class="white" href="#your-link">staffmanager.com</a>
+                            </li>
+                            <li>
+                                <a class="white" href="#your-link">association.gov</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
